@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Avenir Next", sans-serif;
+}
+
+main {
+    flex: 2;
+    max-width: 728px;
+    margin: auto;
+}
+.title {
+    font-size: 18px;
+    padding: 12px 0px;
+}
+.sub-title {
+    font-size: 17px;
+    font-style: italic;
+    padding: 20px 0;
+    color: #2c7ce0;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.results {
+    &-title {
+        padding: 10px;
+        font-size: 17px;
+        color: #1616b9;
+    }
+    ul {
+        max-width: 610px;
+        margin: auto;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.errors {
+    display: none;
+    align-items: center;
+}
+.close {
+    font-size: 22px;
+    cursor: pointer;
+    padding-right: 10px;
+}
